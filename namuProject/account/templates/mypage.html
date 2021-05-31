@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h2>현재 로그인 중인 사용자</h2>
+    <br>
+    <br>
+    <h3>사용자 이름: {{user.username}}</h3>
+    <br>
+    <h3>이메일 주소: {{user.email}}</h3>
+{% endblock %}
